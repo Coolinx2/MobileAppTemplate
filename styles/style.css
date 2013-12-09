@@ -6,13 +6,14 @@
     Author     : Colin
 */
 body{
-    margin:0;
-    padding:0;
-    border:0;
+	margin:0 auto;
+    max-width:600px;
+	max-height:1024px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #fff;
 }
 #container{
-	max-width:600px;
-	max-height:1024px;
 	margin:0 auto;
 	text-align:center;
 	background-color:#000;
