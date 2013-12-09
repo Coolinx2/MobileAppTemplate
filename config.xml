@@ -3,16 +3,16 @@
 <!-- Coolin ref config file with major features added -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.colin.test_app"
+        id        = "com.colin.mobile_template"
         version   = "1.0.0">
 
-    <name>Testing App</name>
+    <name>MobileAppTemplate</name>
 
     <description>
-       This is a testing app for the device and code..
+       template for mobile apps
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
+    <author href="http://www.coolin.co.uk" email="contact@coolin.co.uk">
        Colin Thomson
     </author>
 
