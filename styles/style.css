@@ -1,0 +1,22 @@
+/*
+    Coolin 2013
+*/
+/* 
+    Created on : 08-Dec-2013, 15:47:29
+    Author     : Colin
+*/
+body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+#container{
+	max-width:600px;
+	max-height:1024px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#000;
+	color:#fff;
+}
+
+
