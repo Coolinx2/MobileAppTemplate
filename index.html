@@ -5,20 +5,31 @@ Coolin I.T. copyright 2013
 <html>
     <head>
         <title></title>
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+	</script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="styles/style.css"/>
         <script>
             function clicked()
         {
-            document.getElementById("demo").innerHTML="Hello World";
+            document.getElementById("btn1").innerHTML="Coolin";
         }
         </script>
     </head>
     <body>
+    	<div id="header">
+    		<h1>Template...</h1>
+    	</div>
+    	<div id="container">
             <h1>ready</h1>
            <button onclick="clicked()">Click me</button>
-            <p id="demo"></p>
-            <a href="contact.php">Contact Us</a>
+            <p id="btn1"></p>
+        </div>
     </body>
 </html>

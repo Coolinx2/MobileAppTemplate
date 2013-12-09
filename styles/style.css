@@ -1,4 +1,4 @@
-/*
+﻿/*
     Coolin 2013
 */
 /* 
@@ -18,6 +18,12 @@ body{
 	text-align:center;
 	background-color:#000;
 	color:#fff;
+}
+#header{
+	text-align:left;
+}
+#header img{
+	float:right;
 }
 
 
